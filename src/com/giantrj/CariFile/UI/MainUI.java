@@ -7,6 +7,7 @@ package com.giantrj.CariFile.UI;
 import com.giantrj.CariFile.handler.DB.DBHandler;
 import com.giantrj.CariFile.handler.File.GetFiles;
 import java.io.File;
+import javax.swing.ImageIcon;
 import javax.swing.JFileChooser;
 
 /**
@@ -45,6 +46,7 @@ public class MainUI extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Pencarian File");
         setFont(new java.awt.Font("Fira Code", 0, 12)); // NOI18N
+        setIconImage(new ImageIcon(getClass().getClassLoader().getResource("./icon.png")).getImage());
 
         jLabelNamaFile.setText("Nama File");
 
