@@ -1,0 +1,105 @@
+# NetBeans specific files
+nbproject/private/
+nbproject/nbproject.xml
+nbproject/genfiles.properties
+nbproject/private/private.xml
+nbbuild/
+build/classes/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+project.properties
+
+# Build files
+build/
+build/classes/
+build.xml
+nbbuild/
+
+# Compiled class files
+*.class
+*.jar
+*.war
+
+# Mobile Tools for Java (MTJ)
+.nb-gradle/
+
+# Java specific files
+*.log
+*.sql
+*.sqlite
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific files
+*~
+
+# Eclipse specific files
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA specific files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Maven specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle specific files
+.gradle
+build/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+*.orig
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Application files
+*.apk
+*.ap_
+
+# Custom log files
+*.log
+
+# NetBeans IDE specific cache files
+nb-configuration.xml
+
+# Exclude configuration files that may include sensitive information
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
