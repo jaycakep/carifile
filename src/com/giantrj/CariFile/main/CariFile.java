@@ -17,12 +17,10 @@ public class CariFile {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         MainUI mainui = new MainUI();
         mainui.setLocationRelativeTo(null);
         mainui.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        mainui.setVisible(true);
-        
+        mainui.setVisible(true);        
     }
     
 }

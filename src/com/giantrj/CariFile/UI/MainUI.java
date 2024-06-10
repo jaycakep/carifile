@@ -132,7 +132,6 @@ public class MainUI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButtonPilihDirektoriActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonPilihDirektoriActionPerformed
-        // TODO add your handling code here:
         // Membuat JFileChooser
         JFileChooser directoryChooser = new JFileChooser();
         directoryChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
@@ -148,7 +147,6 @@ public class MainUI extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonPilihDirektoriActionPerformed
 
     private void jButtonCariActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCariActionPerformed
-        // TODO add your handling code here:
         GetFiles gfs = new GetFiles();
         
         if(!DirLama.equals(jTextFieldDirektori.getText()))
